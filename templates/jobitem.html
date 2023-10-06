@@ -25,7 +25,7 @@
         <div><b>Salary:</b> {{job['salary']}}</div>
         {% endif %}
     </div>
-  <a href="mailto:tesfayenuhamin@gmail.com?subject=Application%20for%20{{job['title']}}&body=Name%3A%0D%0Aposition%3A%0D%0Acv%20link%3A%0D%0Alinkedin%20link%3A " type="button" class="btn btn-outline-primary float-right align-middle">Apply</a>
+  <a href="api/jobs/{{job['id']}}" type="button" class="btn btn-outline-primary float-right align-middle">Apply</a>
   
 
 </div>

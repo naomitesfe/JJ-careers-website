@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+     <title>{{job.title}} JJ Careers</title>
+    {% include 'bootstrap.html'%}
+  </head>
+  <body>
+    {% include 'nav.html'%}
+    {%include 'banner.html' %}
+    <div class="container">
+       <h1 class="text-center mt-2 mb-4">JJ Careers</h1>
+       <h3 style="font-weight:bold;">Title </h3>
+       <p>{{job.title}}</p> 
+       <h3 style="font-weight:bold;">Location </h3>
+       <p>{{job.location}}</p>
+       <h3 style="font-weight:bold;">Salary </h3>
+       <p>{{job.currency}}{{job.salary}}</p>
+       <h3 style="font-weight:bold;">Responsibilities </h3>
+       <p>{{job.responsibilities}}</p>
+       <h3 style="font-weight:bold;">Requirements </h3>
+       <p>{{job.requirements}}</p>
+    </div>
+    {%include 'footer.html'%}
+  </body>
+</html>

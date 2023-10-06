@@ -1,5 +1,5 @@
 Flask
 gunicorn
 Flask-SQLAlchemy
-PyMySQL
+
 
