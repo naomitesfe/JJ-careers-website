@@ -1,8 +1,6 @@
 from sqlalchemy import create_engine, text
-import os
 
-db_connection_string = os.environ['DB_CONNECTION_STRING']
-engine = create_engine(db_connection_string)
+engine = create_engine("mysql+pymysql://admin:esFQCENu@mysql-148941-0.cloudclusters.net:19360/jjcareers")
 
 def load_jobs_from_db():
     
