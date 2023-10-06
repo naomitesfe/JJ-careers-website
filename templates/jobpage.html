@@ -9,17 +9,21 @@
     {%include 'banner.html' %}
     <div class="container">
        <h1 class="text-center mt-2 mb-4">JJ Careers</h1>
-       <h3 style="font-weight:bold;">Title </h3>
+       <h3 style="font-weight:bold;">Data Scientist </h3>
        <p>{{job.title}}</p> 
-       <h3 style="font-weight:bold;">Location </h3>
+       <p style="font-size: larger;"><strong>Location:</strong> Addis Ababa</p>
        <p>{{job.location}}</p>
-       <h3 style="font-weight:bold;">Salary </h3>
+       <p style="font-size: larger;"><strong>Salary:</strong> ETB 100000</p>
        <p>{{job.currency}}{{job.salary}}</p>
-       <h3 style="font-weight:bold;">Responsibilities </h3>
+       <p><strong>Responsibilities:</strong></p>
+       <p>Manage, mine, and clean unstructured data to prepare it for practical use. Develop models that can operate on Big Data. Take charge of the data team and help them towards their respective goals.</p>
        <p>{{job.responsibilities}}</p>
-       <h3 style="font-weight:bold;">Requirements </h3>
+       <p><strong>Requirements:</strong></p>
+       <p>A degree in computer science, mathematics, statistics, engineering, or a related field. Experience in data science, machine learning, deep learning, artificial intelligence, or natural language processing.</p>
        <p>{{job.requirements}}</p>
-    </div>
+    </div >
+    {%include 'application_form.html' %}
     {%include 'footer.html'%}
   </body>
 </html>
+
